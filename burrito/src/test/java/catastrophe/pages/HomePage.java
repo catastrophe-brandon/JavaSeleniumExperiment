@@ -11,7 +11,7 @@ import org.openqa.selenium.support.How;
  */
 public class HomePage extends Page {
 
-  @FindBy(how = How.TAG_NAME, using = "h1")
+  @FindBy(how = How.TAG_NAME, using = "head")
   @CacheLookup
   public WebElement header;
 
