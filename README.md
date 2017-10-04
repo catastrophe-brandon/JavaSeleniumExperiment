@@ -33,4 +33,3 @@ brew install maven
 brew install geckodriver
 mvn clean test -B
 ```
-
