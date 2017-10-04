@@ -11,7 +11,7 @@ public abstract class Page {
 
   /*
    * Constructor injecting the WebDriver interface
-   * 
+   *
    * @param webDriver
    */
   public Page(WebDriver driver) {

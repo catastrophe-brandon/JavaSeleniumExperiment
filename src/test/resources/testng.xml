@@ -5,5 +5,5 @@
     <classes>
       <class name="catastrophe.SampleTestNgTest"/>
     </classes>
-  </test>  
+  </test>
 </suite>

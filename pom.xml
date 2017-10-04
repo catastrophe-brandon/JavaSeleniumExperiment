@@ -64,7 +64,7 @@
         <configuration>
           <encoding>UTF-8</encoding>
         </configuration>
-      </plugin> 
+      </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.20</version>

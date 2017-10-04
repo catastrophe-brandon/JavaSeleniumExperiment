@@ -18,7 +18,7 @@ public class SuiteConfiguration {
   private Properties properties;
 
   public SuiteConfiguration() throws IOException {
-  	this(System.getProperty("application.properties", DEBUG_PROPERTIES));
+	this(System.getProperty("application.properties", DEBUG_PROPERTIES));
   }
 
   public SuiteConfiguration(String fromResource) throws IOException {
