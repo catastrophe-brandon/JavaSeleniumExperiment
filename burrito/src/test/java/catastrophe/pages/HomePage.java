@@ -15,7 +15,11 @@ public class HomePage extends Page {
   @CacheLookup
   public WebElement header;
 
+  @FindBy(how = How.CLASS_NAME, using="searchForm")
+  public WebElement searchForm;
+
   public HomePage(WebDriver webDriver) {
     super(webDriver);
   }
+
 }
