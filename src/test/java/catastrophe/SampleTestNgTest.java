@@ -22,4 +22,10 @@ public class SampleTestNgTest extends TestNgTestBase {
     driver.get(baseUrl);
     Assert.assertTrue("".equals(homepage.header.getText()));
   }
+
+  @Test
+  public void testHomePagHasSearchForm() {
+    driver.get(baseUrl);
+    Assert.assertTrue(homepage.searchForm !=null);
+  }
 }
