@@ -27,6 +27,7 @@ Basically:
 ```
 brew install selenium-server-standalone
 brew install maven
+brew install geckodriver
 cd burrito
-mvn clean install -Dsite.url="http://toysrus.com"
+mvn clean test -B
 ```
