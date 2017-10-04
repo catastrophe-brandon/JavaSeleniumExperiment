@@ -1,4 +1,4 @@
-# JavaSeleniumExperiment
+# JavaSeleniumExperiment ![shiny badge](https://travis-ci.org/catastrophe-brandon/JavaSeleniumExperiment.svg?branch=master)
 
 Some example code to illustrate how to work with Selenium webdriver automation in Java using Page Object Pattern. This
 repo can be used as a reference or a starting point for building your own Selenium automation in Java.
@@ -28,6 +28,5 @@ Basically:
 brew install selenium-server-standalone
 brew install maven
 brew install geckodriver
-cd burrito
 mvn clean test -B
 ```
