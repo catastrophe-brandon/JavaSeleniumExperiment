@@ -1,4 +1,7 @@
-# JavaSeleniumExperiment ![shiny badge](https://travis-ci.org/catastrophe-brandon/JavaSeleniumExperiment.svg?branch=master)
+# JavaSeleniumExperiment
+Some example code to illustrate how to work with Selenium automation in Java using Page Object Pattern.
+
+[![Build Status](https://travis-ci.org/catastrophe-brandon/JavaSeleniumExperiment.svg?branch=master)](https://travis-ci.org/catastrophe-brandon/JavaSeleniumExperiment)
 
 Some example code to illustrate how to work with Selenium webdriver automation in Java using Page Object Pattern. This
 repo can be used as a reference or a starting point for building your own Selenium automation in Java.
