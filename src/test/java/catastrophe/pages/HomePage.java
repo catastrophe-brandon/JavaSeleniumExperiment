@@ -18,6 +18,9 @@ public class HomePage extends Page {
   @FindBy(how = How.ID, using = "searchForm")
   public WebElement searchForm;
 
+  @FindBy(how = How.ID, using= "searchText")
+  public WebElement searchText;
+
   public HomePage(WebDriver webDriver) {
     super(webDriver);
   }
