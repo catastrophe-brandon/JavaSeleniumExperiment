@@ -28,4 +28,17 @@ public class SampleTestNgTest extends TestNgTestBase {
     driver.get(baseUrl);
     Assert.assertTrue(homepage.searchForm !=null);
   }
+
+  @Test
+  public void testHomePageHasSearchText() {
+    driver.get(baseUrl);
+    Assert.assertTrue(homepage.searchText != null);
+  }
+
+  @Test
+  public void testSearchTextTyping() {
+    driver.get(baseUrl);
+    homepage.searchText.sendKeys("SNES Classic Edition");
+    Assert.assertTrue(homepage.searchText.getAttribute("value").equals("SNES Classic Edition"));
+  }
 }
